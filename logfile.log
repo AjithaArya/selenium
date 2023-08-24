@@ -1,0 +1,76 @@
+2023-08-22 16:07:00,378 INFO  [Log]  openApplication info 
+2023-08-22 16:07:00,378 ERROR [Log]  openApplication error 
+2023-08-22 16:07:00,379 WARN  [Log] openApplicationwarn 
+2023-08-22 16:07:07,771 INFO  [Log]  openApplication info 
+2023-08-22 16:07:07,771 ERROR [Log]  openApplication error 
+2023-08-22 16:07:07,771 WARN  [Log] openApplicationwarn 
+2023-08-22 16:07:16,023 INFO  [Log]  openApplication info 
+2023-08-22 16:07:16,023 ERROR [Log]  openApplication error 
+2023-08-22 16:07:16,023 WARN  [Log] openApplicationwarn 
+2023-08-22 16:10:39,595 INFO  [Log]  openApplication info 
+2023-08-22 16:10:39,598 ERROR [Log]  openApplication error 
+2023-08-22 16:10:39,598 WARN  [Log] openApplicationwarn 
+2023-08-22 16:10:47,021 INFO  [Log]  openApplication info 
+2023-08-22 16:10:47,156 ERROR [Log]  openApplication error 
+2023-08-22 16:10:47,156 WARN  [Log] openApplicationwarn 
+2023-08-22 16:10:54,648 INFO  [Log]  openApplication info 
+2023-08-22 16:10:54,648 ERROR [Log]  openApplication error 
+2023-08-22 16:10:54,648 WARN  [Log] openApplicationwarn 
+2023-08-22 16:26:37,661 INFO  [Log]  openApplication info 
+2023-08-22 16:26:37,662 ERROR [Log]  openApplication error 
+2023-08-22 16:26:37,662 WARN  [Log] openApplicationwarn 
+2023-08-22 16:28:27,994 INFO  [Log]  openApplication info 
+2023-08-22 16:28:27,995 ERROR [Log]  openApplication error 
+2023-08-22 16:28:27,995 WARN  [Log] openApplicationwarn 
+2023-08-22 16:29:55,007 INFO  [Log]  openApplication info 
+2023-08-22 16:29:55,008 ERROR [Log]  openApplication error 
+2023-08-22 16:29:55,008 WARN  [Log] openApplicationwarn 
+2023-08-22 16:31:51,108 INFO  [Log]  openApplication info 
+2023-08-22 16:31:51,109 ERROR [Log]  openApplication error 
+2023-08-22 16:31:51,109 WARN  [Log] openApplicationwarn 
+2023-08-22 16:33:55,141 INFO  [Log]  openApplication info 
+2023-08-22 16:33:55,142 ERROR [Log]  openApplication error 
+2023-08-22 16:33:55,142 WARN  [Log] openApplicationwarn 
+2023-08-22 16:34:39,539 INFO  [Log]  openApplication info 
+2023-08-22 16:34:39,540 ERROR [Log]  openApplication error 
+2023-08-22 16:34:39,540 WARN  [Log] openApplicationwarn 
+2023-08-22 16:34:46,715 INFO  [Log]  openApplication info 
+2023-08-22 16:34:46,819 ERROR [Log]  openApplication error 
+2023-08-22 16:34:46,819 WARN  [Log] openApplicationwarn 
+2023-08-22 16:34:55,002 INFO  [Log]  openApplication info 
+2023-08-22 16:34:55,054 ERROR [Log]  openApplication error 
+2023-08-22 16:34:55,054 WARN  [Log] openApplicationwarn 
+2023-08-22 16:36:03,083 INFO  [Log]  openApplication info 
+2023-08-22 16:36:03,084 ERROR [Log]  openApplication error 
+2023-08-22 16:36:03,084 WARN  [Log] openApplicationwarn 
+2023-08-22 16:37:01,685 INFO  [Log]  openApplication info 
+2023-08-22 16:37:01,686 ERROR [Log]  openApplication error 
+2023-08-22 16:37:01,687 WARN  [Log] openApplicationwarn 
+2023-08-22 16:38:03,245 INFO  [Log]  openApplication info 
+2023-08-22 16:38:03,246 ERROR [Log]  openApplication error 
+2023-08-22 16:38:03,246 WARN  [Log] openApplicationwarn 
+2023-08-22 16:39:42,091 INFO  [Log]  openApplication info 
+2023-08-22 16:39:43,368 INFO  [Log]  loginApplication info 
+2023-08-22 16:39:44,046 INFO  [Log]   pimMenu info 
+2023-08-22 16:39:44,084 INFO  [Log]   addemp info 
+2023-08-22 16:39:45,963 INFO  [Log]   addemp info 
+2023-08-22 16:39:45,977 INFO  [Log]   exitFrame info 
+2023-08-22 16:39:48,851 INFO  [Log]  closeApplication info 
+2023-08-22 16:40:01,707 INFO  [Log]  openApplication info 
+2023-08-22 16:40:02,715 INFO  [Log]  loginApplication info 
+2023-08-22 16:40:02,984 INFO  [Log]  logoutCompleted info 
+2023-08-22 16:40:06,018 INFO  [Log]  closeApplication info 
+2023-08-22 16:40:24,698 INFO  [Log]  openApplication info 
+2023-08-22 16:40:25,577 INFO  [Log]  loginApplication info 
+2023-08-22 16:40:25,953 INFO  [Log]  logoutCompleted info 
+2023-08-22 16:40:28,940 INFO  [Log]  closeApplication info 
+2023-08-22 16:40:34,875 INFO  [Log]  openApplication info 
+2023-08-22 16:40:35,769 INFO  [Log]  loginApplication info 
+2023-08-22 16:40:43,847 INFO  [Log]  openApplication info 
+2023-08-22 16:40:44,701 INFO  [Log]  loginApplication info 
+2023-08-22 16:40:45,502 INFO  [Log]   pimMenu info 
+2023-08-22 16:40:45,519 INFO  [Log]   addemp info 
+2023-08-22 16:40:46,613 INFO  [Log]   exitFrame info 
+2023-08-22 16:40:46,646 INFO  [Log]   exitFrame info 
+2023-08-22 16:40:47,007 INFO  [Log]  logoutCompleted info 
+2023-08-22 16:40:49,757 INFO  [Log]  closeApplication info 
