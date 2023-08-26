@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hrms.packages.TestScript.Tc002">
+      <class name="com.hrms.testscripts.TC003">
         <methods>
-          <include name="mouseover"/>
+          <include name="tc003"/>
         </methods>
-      </class> <!-- hrms.packages.TestScript.Tc002 -->
+      </class> <!-- com.hrms.testscripts.TC003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

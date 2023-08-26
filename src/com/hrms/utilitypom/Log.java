@@ -1,8 +1,9 @@
-package com.hrms.utility;
+package com.hrms.utilitypom;
 
 import org.apache.log4j.Logger;
 
 public class Log {
+//	private static Logger Log= Logger.getLogger(Log.class.getName());
 	// initalize Log4J logs
 	private static Logger Log= Logger.getLogger(Log.class.getName());
 	// need to create these methods , so that they can be called
@@ -11,19 +12,4 @@ public class Log {
 		
 		
 	}
-	public static void error(String message) {
-		Log.error(message);
-	}
-	public static  void warn(String message) {
-		
-			Log.warn(message);
-	}
-	
-
-	
-	public static void debug(String message) {
-		Log.debug(message);
-		}
-	
-
 }

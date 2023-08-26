@@ -1,14 +1,12 @@
 package selenium;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 
-public class AlertPOpups {
+public class ScreenShot {
 	static String Username = "nareshit";
 	static String password = "nareshit";
 	static String title1 = "OrangeHRM - New Level of HR Management s";
@@ -20,23 +18,23 @@ public class AlertPOpups {
 	static String txt_pimbtn = "PIM";
 	static String txt_addempbtn = "Add Employee";
 	static String txt_logout = "Logout";
-
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://183.82.103.245/nareshit/login.php");
 		driver.findElement(By.name(txt_username)).sendKeys(Username);
-		driver.findElement(By.name(txt_longinbt)).click();
-		Thread.sleep(3000);
-		Alert a = driver.switchTo().alert();
-		System.out.println(a.getText());
-		System.out.println("alert completed");
-		a.accept();
 		driver.findElement(By.name(txt_password)).sendKeys(password);
 		driver.findElement(By.name(txt_longinbt)).click();
 		Thread.sleep(3000);
+		WebElement element=driver.findElement(By.linkText(txt_pimbtn));
+		Actions ac=new Actions(driver);
+		ac.moveToElement(element).perform();
+		driver.findElement(By.linkText(txt_addempbtn)).click();
+		Thread.sleep(3000);
 		driver.findElement(By.linkText(txt_logout)).click();
-		driver.close();
-
+		System.out.println(" logout completed");
+		Thread.sleep(3000);
 	}
 
 }
