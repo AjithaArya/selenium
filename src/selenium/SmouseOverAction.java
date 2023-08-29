@@ -44,13 +44,12 @@ public class SmouseOverAction {
 		System.out.println("Title not matched");
 	}
 	WebElement ele=driver.findElement(By.linkText(txt_pimbtn));
-	Actions ac=new Actions(driver);
-	ac.moveToElement(ele).perform();
-	driver.findElement(By.linkText(txt_addempbtn)).click();
-	Thread.sleep(3000);
-	driver.findElement(By.linkText(txt_logout)).click();
-	System.out.println(" logout completed");
-	Thread.sleep(3000);
+	/*
+	 * Actions ac=new Actions(driver); ac.moveToElement(ele).perform();
+	 * driver.findElement(By.linkText(txt_addempbtn)).click(); Thread.sleep(3000);
+	 * driver.findElement(By.linkText(txt_logout)).click();
+	 * System.out.println(" logout completed"); Thread.sleep(3000);
+	 */
 	driver.findElement(By.name(txt_username)).sendKeys(Username);
 	driver.findElement(By.name(txt_password)).sendKeys(password);
    driver.findElement(By.name(txt_clearbtn)).click();
