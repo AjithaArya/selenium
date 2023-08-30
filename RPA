@@ -1,0 +1,31 @@
+select= to retrive data.
+where= condition-->1.where& and2. where& or
+where col= In(v1,v2,v3)IN= comparision.
+where col= Between range comparision.
+workflow automationSubject line :data stored,qnty,subjectline
+Automation deisgn
+ms acees database design-.. 5 fields create
+
+Fundname : where  are from
+Request Type:what  type of action it is
+Request from: from whose emails id comes(useremails)
+request Status:mentioned(received)
+Quantity :menation 200
+--------------------------------
+msacess --> blank database->  to create 5 Fields-> quick to Add dropdown->ShortText--> 
+mention Fieldname: eg.FundNAme,created related dropdown, again  go to  clickAdd->short Text--. mentio9n anotherField
+Table1(default)--> rename the table-->>view-->Design View-->>tablename:mention
+(eg.FundTranctions)-->ok--> tablename changed as FundTransactions
+---------------------------------------------------FieldsName*********************************
+1.Fundname| 2.RequestType| 3.RequestName|4.RequestFrom|5.Quanity of Request|
+IDfield automatic generated like primary key.every row and taffel  uniquely identified
+to save this field --> go to File(1top of left cornor option)--> saveas acess2000 Database (Acessand uipath this none is compatable)-->saveas-->yes
+ databasename mentioned--> desktop saved--> 
+ incase we want to  see NOW Create DataBase --> maAcess-->  below records ribbon EnableContent(workspace middle option)-->  Tablename existing
+
+now configure Uipath
+--> ui dashboard
+1.sequence drag to workspace from leftsideto middle
+2. create Variable --> console variable option--> click on--> sequence click after generated-->  create variable 
+arrFundDetails= Array of(T)--> string --> ok============= to store email data 0,1,2,3,4, 5 filed are stored
+then read email:isFundEmails
