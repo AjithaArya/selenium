@@ -1,0 +1,119 @@
+# selenium
+Explicity Wait= WebDriverWait wait= new WebDriverWait(driver.15);
+wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("xpathofelement"),"Time left:7seconds"));
+----------------------------------------------------------------------------------------------------------------
+2. implicity wait= driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+-------------------------------------------------------------------------------------
+
+3.INSTANCE OF FIREFOX DRIVER: WebDriver driver=new FirefoxDriver();
+-----------------------------------------------------------------------------------------
+
+4. open url in broweser: driver.get(" url of the software application in open webbrowser");
+----------------------------------------------------------------------------------------------------------------
+5.Typing Text in Textbox OR textArea= driver.findElement(By.name("locaterer of the name elemnt")).sendkeys("Ajitha");
+------------------------------------------------------------------------------------------------------------------------------------
+6. Stored text of targeted element in variable=
+
+String  element =driver.findElement(By.name("locater of the name element").getText();
+-----------------------------------------------------------------------------------------------------------------------------------
+7.Clicking on any element or button or link of webpagte
+ dreiver.findElement(By.name("name of any element or button or link")). click();
+----------------------------------------------------------------------------------------
+8.GetPageTitle in selenium Webdriver
+driver.getTitle();
+-----------------------------------------------------------------------------------------------
+9. GerCurrentUrl of WebPage in selenium Webdriver
+ driver.getCurrentUrl();
+-----------------------------------------------------------------------------------------------------
+10. Get Domain name using Javascript executor interface and store into variable:
+JavascriptExecutor javasScript=(JavascriptExecutor)driver;
+String CurrenrUrlUsingJS=(String)javaScript.executeScript("return document.domain");
+-------------------------------------------------------------------------------------------------------------------
+11.GENERATE Alert Using WebDriver'sjavaScript Executor interface:
+Javascript Executore javascript=(JavascriptExecutor)driver;
+javascript.executeScript("alert("Test Case Execution is started Noe....."));
+-----------------------------------------------------------------------------------------------------------------
+12.Selecting Deselecting Value of DropDown in selenium Webdriver.
+Select list= new Select(driver.FindElement(By.name("name of the locator")));
+
+Selecting 3 Methods
+1.selectByVisiableText(); by visible text=russia;
+ list.selectByVisibleText("russia");
+SelctByValue="italy"
+2.list.SelectByValue("italy");
+selectByIndex index=0(firstoption)
+3.selectByIndex(0);
+deseclcted by drop down 3 mrthods
+1.deselectByVisiableText(); by visible text=russia;
+ list.deselectByVisibleText("russia");
+list.deSelctByValue=("italy");
+2.list.deselectByValue("italy");
+deselectByIndex index=0(firstoption)
+3.list.deselectByIndex(0);
+3.........................deselectall
+list.deselectAll();
+4................ isMultiple() return boolean value if selected multiple  dropdown check if yes=boolean="true" not selectedmultiple check box= reurn value is "false"
+boolean value= list.isMultiple();
+system.out.println(value);
+13.************************************navigate url forward and backward,refresh,navigate.to()***************************************
+driver. navigate().to("url of software applcation ");
+2. driver.navigate().refresh();
+3. driver.navigate().forrward();
+4.driver.navigate().back();
+14********************** Verify Element present in selenium Webdriver: it will return true*************************************
+ Boolean iselementpresent=driver.findElement(By.xpath("")).size()!=0;
+15.**********************************************8OOPS CONCEPT***********************************************************************
+a).*****************************Inheritance:****************************************** 
+ The Process  by which  one class acquires Properties(datamember) and functionalites(methods)of another class is called inheritance.
+SingleInheritance:  when one class extends to  only one class is called.
+MultilevelInheritance: morethan one class  properties and functionalty  extends another class is called.
+b). *******************************Polymorphism in java:*********************************************************************************************************
+1) Method Overloading: Two or more methods  same name different signatures in same class ----->
+2)************************Method Overriding:************************************
+Writing Two or more methods  same name  and same signature but Different classes the classes super class and sub classs . 
+different classs using keyword with help of extends keyword.
+c).**********************Encapsulation:  DataBinding********************************8
+ it is processs of binding or wrapping the data(members) and the codes that operates on the data into  a single entity  Eg: class.
+d) ************************************************Abstraction:DataHideing**********************************************************8 
+ 1. DataAbstraction  is a mechanisim of retrieving the essential details  without dealing with background detqails.
+ 2.a class is declared " keyword abstract", it can have abstract method(methods without  body) and  concrete methods(regularmethods). 
+3.normal class only (non abstract methods).
+4. To implements abstract methods with help of another class.
+5. abstract  class  we can't create  objective (instance).6. to get  the access for  abstract  methods  we use  inherit  we use extends Keyword.
+e)*****************************************Interface:**********************************************************
+ -> its look like like class but  it is not a class. an interface can have  methods and variables just like a class .
+-> but methods declared in interface are by default abstract( only methods and signature, no body) .
+->the variables declared in an interface are public,static,final by default.
+-> interface is bule print of classs,its fully abstraction.
+-> interface definiation begins with a keyword interface.
+ interface is like that of  an abstract alss canot be instantiated only with help of other class  we doing  with keyword implements.
+********************************************* Exception Handling in java****************************************************************
+***********************************************What is an Exception?************************************************************
+ An Exception is an unwanted events that interrupts the normal flow of  the program. when exeption occurs  program execution gets Terminated.
+ in such cases we get a system generated error  message.  the good thind about  exceptions is 
+ that they can be  handled in java. By handliing the exceptions we can provide ameaningful message to the user about issue system generated message, 
+Why an Exception occurs?
+ there can be several reasons that can causes program to throw exception, For Openingnot existing File,network Connectionproblem, 
+bad input data provided by user
+3) Hierarchy Exception:
+Java.lang
+^
+| 
+object
+^
+|
+Throwable
+^
+|
+Error                                           Exceptiions
+^                                                  ^
+                                                   |
+                            Run time Exceptions                 Other Exceptions
+Checked Exception
+Error:
+RunTimeExceptions:
+Throws:
+Throw:
+********try block:***********8
+catch clause(){} its executed unly  protected code any error findout--> catch block canot exists without try statment.
+finally{} always executed whether no matter what happened  protected code 
