@@ -2,6 +2,7 @@ package selenium;
 
 import java.io.File;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -32,14 +33,16 @@ public class ScreenShot {
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		File destFile = new File("./Screenshots/img1.jpg");
-
-		// FileUtils.copyFile(sourceFile,destFile);
+		FileUtils.copyFile(sourceFile, destFile);
 		System.out.println("Screenshot saved successfully");
-
 		driver.findElement(By.name(txt_username)).sendKeys(Username);
 		driver.findElement(By.name(txt_password)).sendKeys(password);
 		driver.findElement(By.name(txt_longinbt)).click();
 		Thread.sleep(3000);
+		TakesScreenshot takesScreenshot1 = (TakesScreenshot) driver;
+		File sourceFile1 = takesScreenshot.getScreenshotAs(OutputType.FILE);
+		File destFile1 = new File("./Screenshots/img1.jpg");
+		FileUtils.copyFile(sourceFile1, destFile1);
 		WebElement element = driver.findElement(By.linkText(txt_pimbtn));
 		Actions ac = new Actions(driver);
 		ac.moveToElement(element).perform();

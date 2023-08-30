@@ -33,7 +33,7 @@ Thread.sleep(3000);
 System.out.println("File upload sucessful");
 driver.findElement(By.linkText("Logout")).click();
 driver.close();
-}]
+}
 		
 		
 		
